@@ -1,0 +1,27 @@
+* {
+
+padding: 0px;
+margin: 0px;
+border: 0px;
+
+}
+body{
+background-color: black;
+color: yellow;
+}
+.introduçao {
+
+justify-items: center;
+justify-content: center;
+align-items: center;
+padding-left: 620px;
+padding-top: 1.0rem;
+
+
+}
+
+.introdução {
+
+border: solid grey;
+
+}
