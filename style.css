@@ -21,7 +21,6 @@ padding-top: 1.0rem;
 }
 
 .introdução {
-
-border: 12px solid grey;
-
+border-style: 12px solid grey;
+background-color: #807080
 }
