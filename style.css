@@ -9,6 +9,8 @@ body{
 background-color: black;
 color: yellow;
 border: grey solid 12px;
+justify-content: center;
+align-items: center;
 }
 .introduçao {
 
