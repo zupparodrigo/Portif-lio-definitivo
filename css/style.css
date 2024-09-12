@@ -1,9 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700&family=JetBrains+Mono:wght@100;200;300;400&family=Josefin+Slab:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400&display=swap');
-
-@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css);
 
 
-/* variedades =============================== */
+
+
 * {
     margin:0;
     padding:0;
@@ -22,37 +20,11 @@ html {
 
 
 
-/* DATA-ANIME ============= */
-[data-anime]{
-    opacity: 0;
-    transition: .3s;
-}
-
-[data-anime="up"]{
-    opacity: 0;
-    transform: translate3d(0px ,250px, 0px)
-}
-
-[data-anime="left"]{
-    opacity: 0;
-    transform: translate3d(10px ,0px, 0px)
-}
-[data-anime="right"]{
-    opacity: 0;
-    transform: translate3d(-10px ,0px, 0px)
-}
-[data-anime].animate{
-    opacity: 1;
-    transform: translate3d(0px, 0px, 0px)
-}
-
-/* ========================== */
 
 
 
 
 
-/* headers========================== */
 .sessao-header h1,
 .contact-right h1,
 .projetos-header h1{
@@ -87,8 +59,6 @@ html {
 }
 
 
-
-/*  linhas do hamburguer */
 .line {                               
     width: 100%;
     height: .1rem;
@@ -104,7 +74,6 @@ html {
 
 
 
-/* .ButtonCustom custom */
 .ButtonCustom {
     padding: 1.3em 3em;
     font-family: var(--font-tertiary);
