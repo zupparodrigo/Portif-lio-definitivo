@@ -1,26 +1,184 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>portifolio</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
+    <link rel="manifest" href="assets/images/site.webmanifest">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/proprieties.css">
+    <link rel="stylesheet" href="./assets/css/KeyFrames.css">
+    <title>Portfólio-zuppa</title>
 </head>
 <body>
-
-    <div class="introduçao">
-    <h1>Bem vindo</h1>
-
-
-    <p>Sobre mim:</p>
-    <p>Ola eu sou o rodrigo, sou desenvolvedor html e css tenho 15 anos e estou começando na area de programação </p><p>
-        
-        
-        Conhecimentos:</p>
-    <p>html</p>
-    <p>css</p>
     
-</div>
+    <div class="container">
+
+        <div class="hamburguer" id="Close-menu">
+            <div class="line" id="line1"></div>
+            <div class="line" id="line2"></div>
+            <div class="line" id="line3"></div>
+            <span>Fechar</span>
+        </div>
+
+        <header>
+            <div class="img-wrapper">
+                <img src="./assets/images/backgroundimg.jpg" alt="">
+            </div>
+            <div class="banner">    
+                <h1 class="title-style">portifolio </h1>  
+                <p>Ola sou o rodrigo zuppa, tenho 15 anos e estou na area a 9 meses</p>
+                <button class="ButtonCustom" id="button-banner">Saiba mais</button>
+            </div> 
+
+        </header>
+
+        <aside class="sidebar">
+            <nav>
+                <ul class="menu">
+                    <li id="menu-1" class="menu-item"><a id="Close-menu" href="#" class="menu-link">home</a></li>
+                    <li id="menu-2" class="menu-item"><a id="Close-menu" href="#conhecimentos" class="menu-link">conhecimentos</a></li>
+                    <li id="menu-3" class="menu-item"><a id="Close-menu" href="#projetos" class="menu-link">projetos</a></li>
+                    <li id="menu-4" class="menu-item"><a id="Close-menu" href="#contato" class="menu-link">contato</a></li>
+                    <li id="menu-5" class="menu-item"><a id="Close-menu" href="#orcamento" class="menu-link">orçamento</a></li>
+                    
+                    
+                </ul>
+            </nav>
+            <div class="social-media">
+                <a id="social-1" href="#"><i class="fab fa-github"></i></a>
+                <a id="social-2" href="#"><i class="fab fa-instagram"></i></a>
+                <a id="social-3" href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </aside>
+
+        <section class="sessao-conhecimentos" >
+            <div class="sessao-header"id="conhecimentos">
+                <h1 class="title-style">Conhecimentos</h1>
+            </div>
+            <div class="conhecimentos">
+                <div class="conhecimento" data-anime="left">
+                    <div class="conhecimento-header">
+                        <i class="fab fa-html5"></i>
+                        <h3>HTML</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>conhecimento intermediario o suficiente para projetos</p>
+                    </div>
+                </div>
+                <div class="conhecimento" data-anime="right">
+                    <div class="conhecimento-header">
+                        <i class="fab fa-css3-alt"></i>
+                        <h3>Css</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>conhecimento intermediario sobre animaçoes e afins.</p>
+                    </div>
+                </div>
+                <div class="conhecimento" data-anime="left">
+                    <div class="conhecimento-header">
+                        <i class="fab fa-js"></i>
+                        <h3>Javascript</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>estou estudando sobre o Javascript/p>
+                    </div>
+            
+        
+            
+                <div class="imagemFundo">
+                    <i class="fa-solid fa-laptop-code"></i>                
+                </div>
+        
+          
+                 
+                 
+                
+      
+        </section>
+
+        
+
+
+
+        <section class="section-budget" id="orcamento">
+            <div class="box"></div>
+            <div class="budget-wrapper">
+                <div class="header-budget" data-anime="left">
+                    <h1>Faça seu orçamento</h1>
+                </div>
+                
+                <form class="form-budget">
+                    
+                   
+                    
+                    <div class="group-layout" data-anime="up">
+                        <label>Layout</label> 
+                        <div>
+                            <input type="radio" name="layout" id="layout-sim">
+                            <label for="layout-sim">Sim, preciso de um layout</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="layout" id="layout-nao">
+                            <label for="layout-não">Não preciso de um layout</label>
+                        </div><br/>
+                        
+                        <div>
+                            <label for="prazo">Prazo</label>
+                            <input type="range" name="prazo" id="prazo" min="1" max="10">
+                        </div>
+                        
+                        <div class="btn">
+                            <button type="submit" id="envio-form-orc" class="ButtonCustom">enviar</button>
+                        </div>
+                        
+                        <label id="preco"> R$ 0,00</label>
+                        
+                    </div>
+                     
+                </form>
+        </section> 
+
+      
     
+            
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+    </div>
+
+    <script src="./script.js"></script>
 </body>
 </html>
+
+
